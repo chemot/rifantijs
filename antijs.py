@@ -10,37 +10,37 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import youtube_dl
 
-cl = LineClient(authToken='EudBnx7OTczHol5QyWeb.0PzLwS72Fl1EGGJMnIN3IW.Qvu8QiQt7pnfeJN4gY0zkDs50nCO1N+aG/x7WKMXses=')
+cl = LineClient(authToken='Ev7VKFkEHEcC1S7W7HP7.rYQ2taYWmIaHwZoX6iKQ1W.lukhGCfGs1qhGExYg+mFTj5gxFiHIWI2T3m+RvcSnO8=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='EuEmqr5CG0kRTaWFu8u3.ceM9NaolFHDUaV2+G8nZyW.UrACa12j9/xLgpIEcaMcaucuYOBpCaIR7X5rPPmrl84=')
+ki = LineClient(authToken='EvPLmeTqFwhKr0z7BaQf.K9hUseF6j4f/WE5DLTHHBW.1d79vk/yCSp3Zq4w5h61EXwVHYkUFZ8r/ivdc6kGdG0=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='EuI2Plp0ANcqOQhsYYD7.L9FHe7uzKTCG1RQIn1TiTW.TY44ZVhARfswdpDGJm8slUEHNJTX+4EP9jcrHfL0wzY=')
+kk = LineClient(authToken='Ev4eGPUk8PjqpbJ23r66.BaiKNxR2VN7zWCBrQS6P5G.NAaJ2LSnLE4hhVKbWtfFlZXlI6G8UDtyc+ve+DjrG1c=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='EuX9KX2wLKNalVdGaZS7.zHaODuDXU8bfbqzFy+szXW.ZiWB0anJ0rWRbCi2ZdxCFW3Nryk9T3nD9mNf9ovFtZo=')
+kc = LineClient(authToken='Eveq4kDs1q5jG42PFasa.UHbbg4pHBjT5VwCYtXmXsG.BbfFD9Lsu3H0ZaIJqe4VYXyd1aNlgjhmQXNRku8ZDnY=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient(authToken='EujrOmXVTQt2dx7p6bS7.bWJKbDdrkKVEodATWyP5nW.nN7hTVNi8alVProqheUF2wFfuAlOxsmATznqVSbRVUw=')
+sw = LineClient(authToken='EvgGRrGxk2wn3JG1PSwa.Oyj1ZAWaMt3CKaVDd5BW2G.g0W9bbgzChwB11ikvHup1wC+mUwACkh1i/CtnULQiGI=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 
 poll = LinePoll(cl)
 call = LineCall(cl)
-creator = ["ud296655acef67cbd5e8208e63629f78b"]
-owner = ["ud296655acef67cbd5e8208e63629f78b"]
-admin = ["ud296655acef67cbd5e8208e63629f78b"]
-staff = ["ud296655acef67cbd5e8208e63629f78b"]
+creator = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+owner = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+admin = ["u9f09cfcb17d037e2936b751bd9d40ead"]
+staff = ["u9f09cfcb17d037e2936b751bd9d40ead"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
